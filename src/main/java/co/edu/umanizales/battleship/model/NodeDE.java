@@ -4,11 +4,11 @@ import lombok.Data;
 
 @Data
 public class NodeDE {
-    private Ship data;
+    private ShipDistribution data;
     private NodeDE next;
     private NodeDE previous;
 
-    public NodeDE(Ship data) {
+    public NodeDE(ShipDistribution data) {
         this.data = data;
     }
 }
